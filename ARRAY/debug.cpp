@@ -357,7 +357,67 @@ void segregrate(vector<int> a,int n){
     }
 }
 
+void complementarr(vector<int> a){
+    int n = a.size();
+    vector<int> twoscomp(n,0);   
+    int m = twoscomp.size();
+
+    cout<<"one's complement: ";
+    for(int i=0;i<n;i++){
+        if(a[i]==0){
+            twoscomp[i]=1;
+        }
+        else{
+            twoscomp[i]=0;
+        }
+        cout<<twoscomp[i]<<" ";
+    }
+    cout<<endl;
+
+
+    int carry = 1 ;
+    for(int i=n-1;i>=0;i--){
+        int sum = twoscomp[i] + carry;
+        twoscomp[i] = sum%2;
+        carry = sum/2;
+    }
+    cout<<"two's complement: ";
+    if(carry==1){
+        cout<<carry<<" ";
+    } 
+    for(int j=0;j<m;j++){
+        cout<<twoscomp[j]<<" ";
+    }
+
+}
+
+void  rotateby90(vector<vector<int>> a){
+    int n = a.size();
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+                swap(a[i][j],a[j][i]);
+        }
+        cout<<endl;
+    }
+    for(int i=0;i<n;i++){
+       for(int j=n-1;j>=0;j--){
+        cout<<a[i][j]<<" ";
+       }
+       cout<<endl;
+    }
+
+}
+
 int main(){
+     vector<vector<int>> crr = {
+            {1,2,3},
+            {4,5,6},
+            {7,8,9}
+        };
+    rotateby90(crr);
+
+    // vector<int> arr = {0,0,0,0};
+    // complementarr(arr);
     int arr[] = {1,4,45,6,10,8};
     sort(arr,arr+6);
     // int target;
