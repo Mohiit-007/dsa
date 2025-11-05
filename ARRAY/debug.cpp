@@ -433,7 +433,7 @@ int main(){
     int n = 6;
     // pivotindex(brr,n);
     int crr[] = {0,2,1};
-    sort(crr,crr+3);
+    // sort(crr,crr+3);
     int m = 3;
     // cout<<missingnumber(crr,m)<<" "<<endl;
     // cout<<missingnumber2(crr,m)<<" "<<endl;
