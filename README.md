@@ -81,13 +81,3 @@ Graph → Tries
 **Mohit Sahu** — [@Mohiit-007](https://github.com/Mohiit-007)
 
 > MERN Stack Developer | AI enthusiast | DSA placement prep
-
----
-
-## ⭐ Support
-
-If this repo helps you, consider giving it a **star** ⭐ — it motivates continued updates!
-
----
-
-*Made with 💻 and lots of ☕ during placement season.*
