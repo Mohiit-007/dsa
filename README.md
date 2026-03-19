@@ -78,9 +78,9 @@ Graph → Tries
 
 ## 👨‍💻 Author
 
-**Mohit** — [@Mohiit-007](https://github.com/Mohiit-007)
+**Mohit Sahu** — [@Mohiit-007](https://github.com/Mohiit-007)
 
-> MERN Stack & Full-Stack Developer | AI enthusiast | DSA placement prep
+> MERN Stack Developer | AI enthusiast | DSA placement prep
 
 ---
 
